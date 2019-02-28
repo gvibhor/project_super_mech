@@ -1,40 +1,16 @@
 {
-  "devDependencies": {
-
-  },
-  "engines": {
-    "node": ">=6",
-    "npm": ">=3"
-  },
-  "babel": {
-    "presets": [
-      "env"
-    ]
-  },
-  "h5bp-configs": {
-    "directories": {
-      "archive": "archive",
-      "dist": "dist",
-      "src": "src",
-      "test": "test"
-    }
-  },
-  "homepage": "a",
-  "license": "MIT",
-  "name": "Vibhor",
+  "name": "super-mech",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "build": "gulp build",
+    "start": "node ./bin/www"
   },
-  "version": "7.0.1",
-  "description": "A",
-  "files": [
-    "CHANGELOG.md",
-    "LICENSE.txt",
-    "package.json",
-    "dist/",
-    "config.json",
-    "README.md"
-  ],
-  "repository": {
+  "dependencies": {
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "morgan": "~1.9.0",
+    "pug": "2.0.0-beta11"
   }
 }
